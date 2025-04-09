@@ -1,0 +1,22 @@
+.SearchBox {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.SearchBox input {
+  width: 290px;
+  font-size: 18px;
+  border-radius: 6px;
+  padding-left: 12px;
+}
+.SearchBox input:focus,
+.SearchBox input:active {
+  outline: none;
+  border-color: blue;
+}
